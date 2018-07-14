@@ -1,0 +1,138 @@
+.container {
+	width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#banner {
+	background: url('https://static.pexels.com/photos/232/apple-iphone-books-desk-large.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    margin-top: -8px;
+}
+#overlay {
+	background-color: rgba(4,14,22,.83);
+	height: 100%;
+	width: 100%;
+}
+#profile-details {
+	padding: 20px;
+}
+#profile-details h2 {
+	font-size: 35px;
+    text-transform: uppercase;
+}
+#profile-details p {
+    font-size: 20px;
+}
+#reach {
+	margin-top: -15px;
+}
+button {
+	cursor: pointer;
+	width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+}
+#linkedin {
+	border: 2px solid #0077b5;
+	background: #0077b5;
+}
+#twitter {
+	border: 2px solid #00acee;
+	background: #00acee;
+}
+#github {
+	border: 2px solid #000;
+	background: #000;
+}
+#logo {
+	float: left;
+	margin-top: 50px;
+}
+#profile-name {
+	float: right;
+	text-align: right;
+}
+#name {
+	font-size: 40px;
+    letter-spacing: 2px;
+}
+#profession {
+	font-size: 20px;
+    margin-top: -30px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+#profile-line {
+	clear: both;
+	border: 2px solid black;
+}
+#portfolio-div {
+	display: -webkit-flex;
+    display: flex;
+    height: 250px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.portfolio-sample {
+	width: 32%;
+    margin-top: 10px;
+}
+.portfolio-image {
+	width: auto;
+}
+.text-center {
+	text-align: center;
+}
+.website-name {
+	color: #2d3c49;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.website-link {
+	color: #2d3c49;
+}
+#featured-work {
+	color: #7d97ad;
+	font-size: 30px;
+}
+.website {
+	width: 100%;
+	height: auto;
+}
+#portfolio-three {
+	margin-left: 20px;
+}
+#portfolio-one {
+	margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+	.portfolio-sample {
+		width: 100%;
+    	margin-top: 10px;
+	}
+	#portfolio-div {
+		display: block;
+    	display: block;
+    	height: 250px;
+    	margin: 0 auto;
+	}
+	.portfolio-image {
+		height: auto;
+	}
+	.portfolio-sample {
+		margin-bottom: 30px;
+	}
+	#portfolio-three {
+		margin-left: 0;
+	}
+	#banner {
+		height: auto;
+	}
+}
